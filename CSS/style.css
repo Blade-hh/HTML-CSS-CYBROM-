@@ -1,3 +1,8 @@
+/* *{
+    width: 0px;
+    height: 0px;
+} */
+
 #head3{
     color: wheat; 
     background-color: hotpink; 
@@ -5,9 +10,13 @@
     word-spacing: 15px; 
     letter-spacing: 50px; 
     font-size: 50px;
+    font-family: monospace;
 }
 #head2{
     background-color: rgb(26, 208, 60);
     color: white;
     text-align: right;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    
 }
