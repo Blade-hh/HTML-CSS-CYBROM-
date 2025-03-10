@@ -1,6 +1,7 @@
 /* *{
-    width: 0px;
-    height: 0px;
+    margin: 0px;
+    padding: 0px;
+
 } */
 
 #head3{
@@ -19,4 +20,18 @@
     word-spacing: 10px;
     letter-spacing: 10px;
     
+}
+
+.container{
+    background-color: turquoise;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.container1{
+    background-color: rgb(26, 219, 116);
+    padding: 30px;
+    margin-top: 20px;
+    border-left: 20px dashed white;
+    border-right: 20px dashed white;
 }
