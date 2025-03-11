@@ -1,0 +1,20 @@
+.container{
+    width: 300px;
+    text-align: center;   
+    height: 300px;
+    border: 2px solid black;
+    box-shadow: 2px 7px 9px 2px black;
+    line-height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.container i{
+    font-size: xxx-large;
+}
+.container button{
+    width: 170px;
+    padding: 8px;
+    background-color: navy;
+    border-radius: 20px;
+    color: white;
+}

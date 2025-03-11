@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.test{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(67, 63, 63);
+
+}
+.container1 h2{
+    font-family: cursive;
+    color: white;
+
+}
+
+.container1 h1{
+    color: white;
+    font-size: xxx-large;
+} 
+.container1 button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    width: 120px;
+    box-shadow: 0px 0px 6px 0px black;
+    margin-top: 10px;
+}
+
