@@ -1,0 +1,53 @@
+body{
+    background-image: url(/CSS/767265.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(15px);
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+.container1{
+    width: 430px;
+    border: 2px solid black;
+    padding: 70px;
+    border-radius: 200px 10px 200px 10px;
+    box-shadow: 0px 0px 200px 10px black;
+}
+
+.container2 img{
+    width: 500px;
+    height: 80vh;
+}
+
+.container1 h1{
+    /* border: 2px solid; */
+    /* padding: 42px; */
+    /* border-radius: 85px 5px 85px 5px; */
+    /* background-color: darkcyan; */
+    color: cornsilk;
+    font-size: 28px;
+    font-family: cursive;
+}
+
+.container1 p{
+    color: white;
+}
+
+.container1 ul li{
+    color: cornsilk;
+}
+.container1 button{
+    padding: 10px;
+    border-radius: 20px;
+    color: wheat;
+    background-color: red;
+}
