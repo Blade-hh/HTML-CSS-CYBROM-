@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.parent{
+    background-color: bisque;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 200px 190px 450px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.cn1,.cn2,.cn3,.cn4,.cn5,.cn6{
+    background-color: brown;
+    border: 2px solid black;
+    /* position: relative;
+    top: 100px;
+    left: 350px; */
+}
+
+.cn1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

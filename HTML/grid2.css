@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    background-color: bisque;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+
+}
+
+.cn1,.cn2,.cn3,.cn4,.cn5,.cn6{
+    background-color: blueviolet;
+    border: 2px solid black;
+    margin: 4px;
+    
+    
+}
+
+.cn1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.cn2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.cn5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.cn6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

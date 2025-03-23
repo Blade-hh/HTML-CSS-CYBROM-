@@ -1,0 +1,37 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link{
+    /* display: flex; */
+    font-size: x-large;
+    
+}
+.nav-link ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+
+}
+
+.nav-link ul li a{
+    text-decoration: none;
+    animation:;
+}
+.nav-link ul li a:hover{
+    background-color: aquamarine;
+    border: 0px solid aquamarine;
+    
+}
+.nav-logo{
+    display: flex;
+    
+}
+.nav-logo a{
+    display: flex;
+    text-decoration: none; 
+    gap: 30px;  
+    font-size: xxx-large;
+    font-family: "Barriecito", system-ui;
+}

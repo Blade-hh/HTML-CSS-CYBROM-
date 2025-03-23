@@ -1,0 +1,29 @@
+*{
+    margin: 20px;
+}
+
+
+.head{
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+}
+
+.img{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.container1{
+    position: relative;
+    top: -350px;
+}
+
+.icon{
+
+    position: fixed;
+    bottom: 250px;
+    left: 1300px;
+    font-size: xxx-large;
+
+}
