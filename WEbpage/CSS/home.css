@@ -1,7 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: bisque; */
+}
+
 .nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* background: cornflowerblue; */
+    height: 85px;
+    /* border-radius: 40px; */
+    position: fixed;
+    left: 300px;
+    gap: 200px;
 }
 .nav-link{
     /* display: flex; */
@@ -34,4 +47,35 @@
     gap: 30px;  
     font-size: xxx-large;
     font-family: "Barriecito", system-ui;
+}
+
+.slide img{
+    width: -webkit-fill-available;
+    height: 100vh;
+}
+
+.dog img{
+    width: 245px;
+}
+
+.categories h1{
+    font-family: math;
+    font-size: xxx-large;
+    text-align: center;
+    /* position: relative; */
+    margin-top: 35px;
+}
+
+.cat a img{
+    width: 245px;
+}
+
+.vet img{
+    margin-top: 35px;
+    width: -webkit-fill-available;
+}
+
+.footer{
+    display: flex;
+    justify-content: ;
 }

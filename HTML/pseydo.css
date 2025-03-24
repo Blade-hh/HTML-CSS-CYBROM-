@@ -1,0 +1,12 @@
+.first-1:first-child{
+    background-color: blue;
+
+}
+.second-1:last-child{
+    background-color: black;
+
+}
+
+.third-1:nth-child(even){
+    background-color: aqua;
+}
