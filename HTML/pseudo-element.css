@@ -1,0 +1,22 @@
+.para::first-letter{
+    font-size: xxx-large;
+    color: red;
+}
+.para::first-line{
+    /* font-size: xxx-large; */
+    font-weight: bold;
+}
+
+.name::after{
+    content: "Vengeance";
+}
+
+.name::before{
+    content: "I";
+    font-size: xxx-large;
+    color: red;
+}
+
+input::placeholder{
+    color: brown;
+}

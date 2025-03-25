@@ -76,6 +76,49 @@
 }
 
 .footer{
+    background-color: blue;
+    color: white;
+}
+
+.subscribe{
+    position: relative;
+    left: 550px;
+    width: 350px;
     display: flex;
-    justify-content: ;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.subscribe button{
+    width: 80px;
+    position: relative;
+    right: -180px;
+    bottom: 53px;
+    padding: 7px;
+}
+
+.subscribe input{
+    width: 150px;
+    padding: 7px;
+}
+.brand-links{
+    position: relative;
+    left: 200px;
+}
+
+.quick-links{
+    position: relative;
+    left: 150px;
+}
+
+.details{
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.footer1{
+    display: flex;
+    align-items: center;
 }
