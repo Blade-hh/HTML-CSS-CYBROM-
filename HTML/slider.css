@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(10,100%);
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.box{
+    width: 100%;
+    height: 60vh;
+    /* border: 1px solid red; */
+    transition: ;
+}

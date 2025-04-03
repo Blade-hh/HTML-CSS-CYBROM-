@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: 2px solid black;
+    background-color: brown;
+/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation-name: chnge;
+    animation-duration: 10s;
+    /* animation-timing-function: in; */
+    height: 400px;
+    width: 400px;
+        
+}
+
+
+@keyframes chnge{
+    0%{
+        background-color: tomato;
+        transform: translate(0px 0px);
+    }
+
+    25%{
+        background-color: blueviolet;
+        transform: translate(200px 0px);
+
+    }
+
+    50%{
+        background-color: chartreuse;
+        transform: translate(200px 200px);
+        /* transform: translateY(200px); */
+     
+    }
+    75%{
+        background-color: aquamarine;
+        transform: translate(0px 200px);
+    }
+
+}

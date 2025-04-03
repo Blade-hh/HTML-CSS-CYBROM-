@@ -5,38 +5,47 @@
     align-items: center;
 }
 
-.links ul {
+ul {
     display: flex;
     gap: 50px;
 }
 
-.links ul li {
+ul li {
     list-style: none;
 
 }
 
-.links ul li a {
+ul li a {
     text-decoration: none;
 
 }
 
-.bar label {
+.nav label {
     display: none;
 }
 
-/* input {
+input {
     display: none;
-} */
+}
 
-#click:checked~.nav .links ul{
+#click:checked~.nav ul{
     display: block;
+   
 }
 
 @media screen and (max-width:600px) {
-    .bar label {
+    .nav label {
         display: block;
     }
-    .links ul{
+    .nav ul{
         display: none;
+        position: absolute;
+        top: 100px;
+        background-color: blanchedalmond;
+        width:100%;
+    }
+    
+    .nav ul li{
+        padding: 10px;
     }
 }
