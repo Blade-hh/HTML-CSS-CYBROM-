@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.head{
+    text-align: center;
+    font-family:"math";
+    margin-top: 35px;
+    margin-bottom: -25px;
+    font-size: xxx-large;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    gap: 130px;
+    justify-content: center;
+}
+
+.signin{
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 35px;
+    background-color: rgb(239, 234, 234);
+    width: 500px;
+    border-radius: 10px;
+    margin-top: -20px;
+}
+
+.signin button{
+    width: 160px;
+    height: 40px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: rgb(115, 115, 206);
+    font-size: larger;
+    margin-top: 20px;
+}
+.valid{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.valid h2{
+    font-size: large;
+}
+.valid input{
+    /* width: 230px; */
+    height: 50px;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 500px;
+    margin-top: -150px;
+}
+
+.signup button{
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: tomato;
+    font-size: larger;
+    margin-top: 0px;
+    color: white;
+
+}

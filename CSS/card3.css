@@ -14,6 +14,7 @@ section{
     border: 2px solid gray;
     width: 400px;
     padding: 10px;
+    background-image: url(/CSS/img/city1.jpg);
 }
 .container2{
     border: 2px solid gray;
